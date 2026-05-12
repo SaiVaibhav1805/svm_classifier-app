@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report
 st.title("Iris Dataset SVM Classifier")
 
 # Read Dataset
-data = pd.read_csv("iris.csv")
+data = pd.read_csv("IRIS.csv")
 
 # Display Dataset
 st.subheader("Dataset")
